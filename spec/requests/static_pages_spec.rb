@@ -23,7 +23,7 @@ describe "Static pages" do
     before { visit about_path }
 
     it { should have_content('About') }
-    it { should have_title(full_title('About Us')) }
+    it { should have_title(full_title('About us')) }
   end
 
   describe "Contact page" do
